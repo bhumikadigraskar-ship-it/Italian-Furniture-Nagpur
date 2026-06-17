@@ -1,0 +1,1565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Italian Furniture – Premium Luxury Furniture & Interior Design Solutions in Nagpur, Maharashtra. Wholesale home furniture, office furniture, and customized interiors.">
+<meta name="keywords" content="Furniture Store Nagpur, Wholesale Furniture Dealer Nagpur, Luxury Furniture Nagpur, Home Furniture Maharashtra, Office Furniture Nagpur, Interior Design Services Nagpur, Premium Furniture India, Modern Furniture Nagpur">
+<title>Italian Furniture – Luxury Furniture & Interior Solutions | Nagpur</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ivory: #F8F4EE;
+    --cream: #EDE8DF;
+    --gold: #C9A96E;
+    --gold-light: #E8D5B0;
+    --walnut: #8B5E3C;
+    --walnut-dark: #5C3D1E;
+    --charcoal: #1C1C1C;
+    --charcoal-mid: #2E2E2E;
+    --warm-gray: #6B6560;
+    --white: #FFFFFF;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--ivory);
+    color: var(--charcoal);
+    overflow-x: hidden;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 999;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 60px;
+    height: 72px;
+    background: rgba(248,244,238,0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(201,169,110,0.2);
+    transition: box-shadow 0.3s;
+  }
+  nav.scrolled { box-shadow: 0 4px 40px rgba(0,0,0,0.08); }
+  .nav-logo {
+    display: flex; align-items: center; gap: 10px; text-decoration: none;
+  }
+  .nav-logo-icon {
+    width: 38px; height: 38px;
+    background: var(--charcoal);
+    border-radius: 2px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .nav-logo-icon span {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px; font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 0.5px;
+  }
+  .nav-logo-text {
+    display: flex; flex-direction: column; line-height: 1.1;
+  }
+  .nav-logo-text strong {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px; font-weight: 600;
+    color: var(--charcoal);
+    letter-spacing: 0.5px;
+  }
+  .nav-logo-text small {
+    font-size: 10px; font-weight: 400;
+    color: var(--warm-gray);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .nav-links {
+    display: flex; align-items: center; gap: 36px;
+    list-style: none;
+  }
+  .nav-links a {
+    font-size: 13px; font-weight: 500;
+    color: var(--charcoal); text-decoration: none;
+    letter-spacing: 0.5px;
+    position: relative;
+    transition: color 0.2s;
+  }
+  .nav-links a::after {
+    content: ''; position: absolute; bottom: -3px; left: 0; right: 100%;
+    height: 1px; background: var(--gold);
+    transition: right 0.3s ease;
+  }
+  .nav-links a:hover { color: var(--walnut); }
+  .nav-links a:hover::after { right: 0; }
+  .nav-cta {
+    background: var(--charcoal); color: var(--ivory) !important;
+    padding: 10px 24px; border-radius: 2px;
+    font-size: 12px !important; letter-spacing: 1.5px !important;
+    text-transform: uppercase;
+    transition: background 0.2s !important;
+  }
+  .nav-cta:hover { background: var(--walnut) !important; color: var(--ivory) !important; }
+  .nav-cta::after { display: none !important; }
+  .hamburger {
+    display: none; background: none; border: none;
+    cursor: pointer; padding: 4px;
+    flex-direction: column; gap: 5px;
+  }
+  .hamburger span {
+    display: block; width: 24px; height: 1.5px;
+    background: var(--charcoal);
+    transition: all 0.3s;
+  }
+
+  /* ── HERO ── */
+  #home {
+    min-height: 100vh;
+    display: grid; grid-template-columns: 1fr 1fr;
+    padding-top: 72px;
+  }
+  .hero-left {
+    background: var(--charcoal-mid);
+    display: flex; flex-direction: column;
+    justify-content: center;
+    padding: 80px 70px 80px 60px;
+    position: relative; overflow: hidden;
+  }
+  .hero-left::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=900&q=80') center/cover no-repeat;
+    opacity: 0.18;
+  }
+  .hero-left-content { position: relative; z-index: 1; }
+  .hero-eyebrow {
+    font-size: 11px; font-weight: 500;
+    letter-spacing: 4px; text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 28px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .hero-eyebrow::before {
+    content: ''; display: inline-block;
+    width: 32px; height: 1px; background: var(--gold);
+  }
+  .hero-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(38px, 4vw, 58px);
+    font-weight: 700; line-height: 1.12;
+    color: var(--ivory);
+    margin-bottom: 24px;
+  }
+  .hero-headline em {
+    font-style: italic;
+    color: var(--gold);
+  }
+  .hero-subheadline {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px; font-weight: 300;
+    line-height: 1.7;
+    color: rgba(248,244,238,0.75);
+    margin-bottom: 48px;
+    max-width: 380px;
+  }
+  .hero-buttons {
+    display: flex; gap: 16px; flex-wrap: wrap;
+  }
+  .btn-primary {
+    background: var(--gold);
+    color: var(--charcoal);
+    padding: 16px 36px;
+    font-size: 12px; font-weight: 600;
+    letter-spacing: 2px; text-transform: uppercase;
+    text-decoration: none; border: none; cursor: pointer;
+    border-radius: 2px;
+    transition: background 0.25s, transform 0.2s;
+    display: inline-block;
+  }
+  .btn-primary:hover { background: var(--gold-light); transform: translateY(-1px); }
+  .btn-outline {
+    background: transparent;
+    color: var(--ivory);
+    padding: 15px 36px;
+    font-size: 12px; font-weight: 500;
+    letter-spacing: 2px; text-transform: uppercase;
+    text-decoration: none; border: 1px solid rgba(255,255,255,0.35); cursor: pointer;
+    border-radius: 2px;
+    transition: border-color 0.25s, color 0.25s;
+    display: inline-block;
+  }
+  .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+  .hero-stats {
+    display: flex; gap: 40px; margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(201,169,110,0.2);
+  }
+  .hero-stat-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px; font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+  }
+  .hero-stat-label {
+    font-size: 11px; font-weight: 400;
+    color: rgba(248,244,238,0.55);
+    letter-spacing: 1px; margin-top: 4px;
+  }
+
+  .hero-right {
+    position: relative; overflow: hidden;
+    background: var(--cream);
+  }
+  .hero-right img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .hero-gold-bar {
+    position: absolute; left: -1px; top: 0; bottom: 0;
+    width: 4px; background: var(--gold);
+  }
+  .hero-badge {
+    position: absolute; bottom: 40px; left: 32px;
+    background: rgba(28,28,28,0.9);
+    backdrop-filter: blur(10px);
+    padding: 20px 28px;
+    border-left: 3px solid var(--gold);
+  }
+  .hero-badge-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px; font-weight: 600;
+    color: var(--ivory); margin-bottom: 4px;
+  }
+  .hero-badge-sub {
+    font-size: 11px; color: var(--gold);
+    letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* ── SECTION BASE ── */
+  section { padding: 100px 60px; }
+  .section-label {
+    font-size: 10px; font-weight: 600;
+    letter-spacing: 4px; text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(30px, 3vw, 46px);
+    font-weight: 700; line-height: 1.18;
+    color: var(--charcoal);
+    margin-bottom: 20px;
+  }
+  .section-title em { font-style: italic; color: var(--walnut); }
+  .section-desc {
+    font-size: 16px; font-weight: 300; line-height: 1.8;
+    color: var(--warm-gray);
+    max-width: 560px;
+  }
+  .section-divider {
+    width: 48px; height: 2px;
+    background: var(--gold);
+    margin: 24px 0;
+  }
+
+  /* ── ABOUT ── */
+  #about {
+    background: var(--white);
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 80px; align-items: center;
+    padding: 100px 60px;
+  }
+  .about-image-wrap {
+    position: relative; border-radius: 2px; overflow: hidden;
+  }
+  .about-image-wrap img {
+    width: 100%; height: 520px;
+    object-fit: cover; display: block;
+  }
+  .about-accent {
+    position: absolute; bottom: -20px; right: -20px;
+    width: 160px; height: 160px;
+    background: var(--cream);
+    border: 8px solid var(--white);
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column;
+  }
+  .about-accent-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px; font-weight: 700; color: var(--walnut);
+    line-height: 1;
+  }
+  .about-accent-text {
+    font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
+    color: var(--warm-gray); text-align: center; margin-top: 4px;
+  }
+  .about-badges {
+    display: flex; gap: 16px; margin-top: 36px; flex-wrap: wrap;
+  }
+  .about-badge {
+    background: var(--cream);
+    padding: 10px 20px;
+    font-size: 12px; font-weight: 500;
+    color: var(--charcoal);
+    letter-spacing: 0.5px;
+    border-left: 2px solid var(--gold);
+  }
+
+  /* ── PRODUCTS ── */
+  #products { background: var(--ivory); }
+  .products-header {
+    display: flex; align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 64px;
+  }
+  .category-tabs {
+    display: flex; gap: 0; margin-bottom: 48px;
+    border-bottom: 1px solid var(--cream);
+  }
+  .tab-btn {
+    padding: 12px 28px;
+    font-size: 12px; font-weight: 500; letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background: none; border: none; cursor: pointer;
+    color: var(--warm-gray);
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .tab-btn.active, .tab-btn:hover {
+    color: var(--charcoal);
+    border-bottom-color: var(--gold);
+  }
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  .product-card {
+    background: var(--white);
+    overflow: hidden;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  .product-card:hover { box-shadow: 0 20px 60px rgba(0,0,0,0.1); transform: translateY(-4px); }
+  .product-img {
+    width: 100%; height: 260px;
+    object-fit: cover; display: block;
+    transition: transform 0.6s ease;
+  }
+  .product-card:hover .product-img { transform: scale(1.04); }
+  .product-info {
+    padding: 24px 28px 28px;
+  }
+  .product-cat {
+    font-size: 10px; font-weight: 500;
+    letter-spacing: 3px; text-transform: uppercase;
+    color: var(--gold); margin-bottom: 8px;
+  }
+  .product-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px; font-weight: 600;
+    color: var(--charcoal); margin-bottom: 8px;
+  }
+  .product-desc {
+    font-size: 13px; line-height: 1.7;
+    color: var(--warm-gray);
+  }
+
+  /* ── SERVICES ── */
+  #services {
+    background: var(--charcoal);
+    padding: 100px 60px;
+  }
+  #services .section-title { color: var(--ivory); }
+  #services .section-desc { color: rgba(248,244,238,0.6); }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    margin-top: 64px;
+    background: rgba(255,255,255,0.05);
+  }
+  .service-card {
+    background: var(--charcoal-mid);
+    padding: 48px 40px;
+    transition: background 0.3s;
+  }
+  .service-card:hover { background: var(--walnut-dark); }
+  .service-icon {
+    width: 52px; height: 52px;
+    background: rgba(201,169,110,0.12);
+    border: 1px solid rgba(201,169,110,0.3);
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 28px;
+    font-size: 22px;
+  }
+  .service-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px; font-weight: 600;
+    color: var(--ivory); margin-bottom: 12px;
+  }
+  .service-desc {
+    font-size: 14px; line-height: 1.8;
+    color: rgba(248,244,238,0.55);
+  }
+  .service-list {
+    list-style: none; margin-top: 20px;
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .service-list li {
+    font-size: 13px; color: rgba(248,244,238,0.45);
+    padding-left: 16px; position: relative;
+  }
+  .service-list li::before {
+    content: '—'; position: absolute; left: 0;
+    color: var(--gold); font-size: 12px;
+  }
+
+  /* ── WHY CHOOSE US ── */
+  #why {
+    background: var(--cream);
+    padding: 100px 60px;
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 80px; align-items: center;
+  }
+  .why-image {
+    position: relative;
+  }
+  .why-image img {
+    width: 100%; height: 580px;
+    object-fit: cover; border-radius: 2px;
+  }
+  .why-image-label {
+    position: absolute; top: 32px; right: -24px;
+    background: var(--gold);
+    padding: 16px 24px;
+    writing-mode: vertical-lr;
+    font-size: 10px; font-weight: 600;
+    letter-spacing: 3px; text-transform: uppercase;
+    color: var(--charcoal);
+  }
+  .why-features {
+    display: flex; flex-direction: column; gap: 28px;
+    margin-top: 40px;
+  }
+  .why-feature {
+    display: flex; gap: 20px; align-items: flex-start;
+  }
+  .why-feature-icon {
+    width: 44px; height: 44px; flex-shrink: 0;
+    background: var(--white);
+    border: 1px solid rgba(201,169,110,0.35);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+  }
+  .why-feature-content {}
+  .why-feature-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px; font-weight: 600;
+    color: var(--charcoal); margin-bottom: 4px;
+  }
+  .why-feature-desc {
+    font-size: 13px; line-height: 1.7;
+    color: var(--warm-gray);
+  }
+
+  /* ── GALLERY ── */
+  #gallery { background: var(--white); padding: 100px 60px; }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 280px 280px;
+    gap: 8px;
+    margin-top: 56px;
+  }
+  .gallery-item {
+    overflow: hidden; position: relative; cursor: pointer;
+    border-radius: 1px;
+  }
+  .gallery-item:first-child { grid-row: span 2; }
+  .gallery-item img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform 0.6s ease;
+    display: block;
+  }
+  .gallery-item:hover img { transform: scale(1.06); }
+  .gallery-overlay {
+    position: absolute; inset: 0;
+    background: rgba(28,28,28,0);
+    display: flex; align-items: flex-end;
+    padding: 24px;
+    transition: background 0.3s;
+  }
+  .gallery-item:hover .gallery-overlay { background: rgba(28,28,28,0.4); }
+  .gallery-label {
+    font-size: 12px; font-weight: 500; letter-spacing: 2px;
+    text-transform: uppercase; color: var(--ivory);
+    opacity: 0; transform: translateY(6px);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  .gallery-item:hover .gallery-label { opacity: 1; transform: translateY(0); }
+
+  /* ── TESTIMONIALS ── */
+  #testimonials { background: var(--ivory); padding: 100px 60px; }
+  .testimonials-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 24px; margin-top: 56px;
+  }
+  .testimonial-card {
+    background: var(--white);
+    padding: 40px 36px;
+    position: relative;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  .testimonial-card:hover {
+    border-bottom-color: var(--gold);
+    box-shadow: 0 16px 48px rgba(0,0,0,0.07);
+  }
+  .testimonial-quote-icon {
+    font-family: 'Playfair Display', serif;
+    font-size: 72px; line-height: 0.7;
+    color: var(--gold-light);
+    position: absolute; top: 28px; right: 32px;
+    pointer-events: none;
+  }
+  .testimonial-stars {
+    color: var(--gold); font-size: 14px;
+    letter-spacing: 2px; margin-bottom: 16px;
+  }
+  .testimonial-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px; line-height: 1.75;
+    color: var(--charcoal-mid);
+    font-style: italic;
+    margin-bottom: 28px;
+  }
+  .testimonial-author {
+    display: flex; align-items: center; gap: 14px;
+  }
+  .testimonial-avatar {
+    width: 44px; height: 44px; border-radius: 50%;
+    object-fit: cover;
+    background: var(--cream);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px; font-weight: 700;
+    color: var(--walnut);
+    flex-shrink: 0;
+  }
+  .testimonial-name {
+    font-size: 14px; font-weight: 600; color: var(--charcoal);
+  }
+  .testimonial-role {
+    font-size: 11px; color: var(--warm-gray);
+    letter-spacing: 0.5px; margin-top: 2px;
+  }
+
+  /* ── FAQ ── */
+  #faq { background: var(--white); padding: 100px 60px; }
+  .faq-wrap { max-width: 780px; margin: 56px auto 0; }
+  .faq-item {
+    border-bottom: 1px solid var(--cream);
+  }
+  .faq-question {
+    width: 100%; background: none; border: none;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 28px 0;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px; font-weight: 600;
+    color: var(--charcoal);
+    transition: color 0.2s;
+  }
+  .faq-question:hover { color: var(--walnut); }
+  .faq-icon {
+    width: 32px; height: 32px; flex-shrink: 0;
+    border: 1px solid var(--cream);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; color: var(--gold);
+    transition: transform 0.3s;
+    border-radius: 50%;
+  }
+  .faq-item.open .faq-icon { transform: rotate(45deg); }
+  .faq-answer {
+    font-size: 15px; line-height: 1.8;
+    color: var(--warm-gray);
+    max-height: 0; overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s;
+  }
+  .faq-item.open .faq-answer { max-height: 200px; padding-bottom: 24px; }
+
+  /* ── CONTACT ── */
+  #contact { background: var(--cream); padding: 100px 60px; }
+  .contact-grid {
+    display: grid; grid-template-columns: 1fr 1.4fr;
+    gap: 80px; margin-top: 56px; align-items: start;
+  }
+  .contact-info-item {
+    display: flex; gap: 16px; align-items: flex-start;
+    margin-bottom: 32px;
+  }
+  .contact-info-icon {
+    width: 44px; height: 44px; flex-shrink: 0;
+    background: var(--charcoal);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px; border-radius: 2px;
+  }
+  .contact-info-label {
+    font-size: 10px; font-weight: 600;
+    letter-spacing: 3px; text-transform: uppercase;
+    color: var(--gold); margin-bottom: 4px;
+  }
+  .contact-info-val {
+    font-size: 15px; color: var(--charcoal); font-weight: 500;
+    text-decoration: none;
+    display: block;
+    transition: color 0.2s;
+  }
+  .contact-info-val:hover { color: var(--walnut); }
+  .contact-ctas {
+    display: flex; flex-direction: column; gap: 12px;
+    margin-top: 36px;
+  }
+  .cta-whatsapp {
+    display: flex; align-items: center; gap: 12px;
+    background: #25D366; color: #fff;
+    padding: 14px 24px; text-decoration: none;
+    font-size: 13px; font-weight: 600;
+    border-radius: 2px; letter-spacing: 0.5px;
+    transition: opacity 0.2s;
+  }
+  .cta-whatsapp:hover { opacity: 0.9; }
+  .cta-call {
+    display: flex; align-items: center; gap: 12px;
+    background: var(--charcoal); color: var(--ivory);
+    padding: 14px 24px; text-decoration: none;
+    font-size: 13px; font-weight: 600;
+    border-radius: 2px; letter-spacing: 0.5px;
+    transition: background 0.2s;
+  }
+  .cta-call:hover { background: var(--walnut); }
+  .contact-form {
+    background: var(--white);
+    padding: 48px;
+    border-radius: 2px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.06);
+  }
+  .form-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px; font-weight: 700;
+    color: var(--charcoal); margin-bottom: 32px;
+  }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .form-group { margin-bottom: 20px; }
+  .form-label {
+    display: block; font-size: 11px; font-weight: 600;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--warm-gray); margin-bottom: 8px;
+  }
+  .form-input, .form-select, .form-textarea {
+    width: 100%;
+    padding: 14px 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: var(--charcoal);
+    background: var(--ivory);
+    border: 1px solid var(--cream);
+    border-radius: 2px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .form-input:focus, .form-select:focus, .form-textarea:focus {
+    border-color: var(--gold);
+  }
+  .form-textarea { height: 120px; resize: vertical; }
+  .form-submit {
+    width: 100%; padding: 16px;
+    background: var(--charcoal);
+    color: var(--ivory);
+    border: none; cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px; font-weight: 600;
+    letter-spacing: 2.5px; text-transform: uppercase;
+    border-radius: 2px;
+    transition: background 0.25s;
+    margin-top: 8px;
+  }
+  .form-submit:hover { background: var(--walnut); }
+
+  /* ── MAP PLACEHOLDER ── */
+  .map-section {
+    background: var(--charcoal-mid);
+    height: 360px;
+    display: flex; align-items: center; justify-content: center;
+    position: relative; overflow: hidden;
+  }
+  .map-section iframe {
+    width: 100%; height: 100%; border: 0;
+  }
+
+  /* ── FLOATING WHATSAPP ── */
+  .whatsapp-float {
+    position: fixed; bottom: 32px; right: 32px;
+    z-index: 9999;
+    width: 56px; height: 56px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 6px 24px rgba(37,211,102,0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-size: 26px;
+  }
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 32px rgba(37,211,102,0.55);
+  }
+
+  /* ── BANNER / CTA STRIP ── */
+  .cta-strip {
+    background: var(--gold);
+    padding: 60px;
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 24px;
+  }
+  .cta-strip-text {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(22px, 2.5vw, 34px);
+    font-weight: 700;
+    color: var(--charcoal);
+    max-width: 600px;
+    line-height: 1.25;
+  }
+  .cta-strip-text em { font-style: italic; }
+  .btn-dark {
+    background: var(--charcoal); color: var(--ivory);
+    padding: 16px 40px;
+    font-size: 12px; font-weight: 600;
+    letter-spacing: 2px; text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background 0.2s;
+    flex-shrink: 0;
+    display: inline-block;
+  }
+  .btn-dark:hover { background: var(--walnut-dark); }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--charcoal);
+    padding: 80px 60px 36px;
+  }
+  .footer-grid {
+    display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 60px; margin-bottom: 60px;
+  }
+  .footer-brand-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px; font-weight: 700;
+    color: var(--ivory); margin-bottom: 4px;
+  }
+  .footer-brand-tag {
+    font-size: 10px; letter-spacing: 3px; text-transform: uppercase;
+    color: var(--gold); margin-bottom: 20px;
+  }
+  .footer-brand-desc {
+    font-size: 13px; line-height: 1.8;
+    color: rgba(248,244,238,0.45);
+    margin-bottom: 28px;
+  }
+  .footer-social {
+    display: flex; gap: 12px;
+  }
+  .footer-social a {
+    width: 36px; height: 36px;
+    border: 1px solid rgba(255,255,255,0.12);
+    display: flex; align-items: center; justify-content: center;
+    color: rgba(248,244,238,0.5);
+    text-decoration: none; font-size: 15px;
+    border-radius: 2px;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .footer-social a:hover { border-color: var(--gold); color: var(--gold); }
+  .footer-col-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px; font-weight: 600;
+    color: var(--ivory); margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 10px; }
+  .footer-links a {
+    font-size: 13px; color: rgba(248,244,238,0.45);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .footer-links a:hover { color: var(--gold); }
+  .footer-bottom {
+    display: flex; align-items: center; justify-content: space-between;
+    padding-top: 32px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    flex-wrap: wrap; gap: 12px;
+  }
+  .footer-copy {
+    font-size: 12px; color: rgba(248,244,238,0.3);
+  }
+  .footer-copy a { color: var(--gold); text-decoration: none; }
+
+  /* ── ANIMATIONS ── */
+  .fade-in {
+    opacity: 0; transform: translateY(28px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+  /* ── MOBILE ── */
+  @media (max-width: 900px) {
+    nav { padding: 0 24px; }
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+
+    #home { grid-template-columns: 1fr; }
+    .hero-left { padding: 60px 28px; min-height: 85vh; }
+    .hero-right { display: none; }
+
+    #about, #why { grid-template-columns: 1fr; gap: 40px; padding: 70px 24px; }
+    .about-image-wrap img, .why-image img { height: 320px; }
+    .about-accent { right: 8px; bottom: 8px; }
+
+    section { padding: 70px 24px; }
+    #contact { padding: 70px 24px; }
+    .products-grid, .services-grid, .testimonials-grid { grid-template-columns: 1fr; }
+    .gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+    .gallery-item:first-child { grid-row: span 1; }
+    .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+    .cta-strip { padding: 48px 24px; flex-direction: column; }
+    footer { padding: 60px 24px 32px; }
+    .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
+    .hero-stats { gap: 24px; }
+    .form-row { grid-template-columns: 1fr; }
+    .products-header { flex-direction: column; gap: 20px; align-items: flex-start; }
+  }
+
+  @media (max-width: 480px) {
+    .footer-grid { grid-template-columns: 1fr; }
+    .gallery-grid { grid-template-columns: 1fr; }
+    .hero-buttons { flex-direction: column; }
+    .btn-primary, .btn-outline { text-align: center; }
+    .contact-form { padding: 32px 24px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/918010804524?text=Hello%2C%20I%20am%20interested%20in%20your%20furniture%20collection." class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+<!-- NAVIGATION -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">
+    <div class="nav-logo-icon"><span>IF</span></div>
+    <div class="nav-logo-text">
+      <strong>Italian Furniture</strong>
+      <small>Nagpur, India</small>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact" class="nav-cta">Get Quote</a></li>
+  </ul>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-left">
+    <div class="hero-left-content">
+      <div class="hero-eyebrow">Italian Furniture — Nagpur</div>
+      <h1 class="hero-headline">
+        Luxury Furniture<br>& <em>Interior Solutions</em><br>for Modern Living
+      </h1>
+      <p class="hero-subheadline">
+        Transform your home and workspace with premium furniture crafted for style, comfort, and timeless elegance.
+      </p>
+      <div class="hero-buttons">
+        <a href="#products" class="btn-primary">Explore Collection</a>
+        <a href="#contact" class="btn-outline">Book Consultation</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-num">500+</div>
+          <div class="hero-stat-label">Projects Completed</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">10+</div>
+          <div class="hero-stat-label">Years Experience</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">98%</div>
+          <div class="hero-stat-label">Client Satisfaction</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-gold-bar"></div>
+    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=900&q=80" alt="Luxury Sofa — Italian Furniture Nagpur" loading="eager">
+    <div class="hero-badge">
+      <div class="hero-badge-title">Premium Quality Guaranteed</div>
+      <div class="hero-badge-sub">Wholesale Dealer · Nagpur</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="fade-in">
+  <div class="about-image-wrap">
+    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80" alt="Luxury living room interior by Italian Furniture Nagpur">
+    <div class="about-accent">
+      <div class="about-accent-num">10+</div>
+      <div class="about-accent-text">Years of<br>Excellence</div>
+    </div>
+  </div>
+  <div>
+    <div class="section-label">About Us</div>
+    <h2 class="section-title">Creating <em>Beautiful Spaces</em><br>with Premium Furniture</h2>
+    <div class="section-divider"></div>
+    <p class="section-desc" style="margin-bottom:20px;">
+      Italian Furniture is a leading furniture wholesaler in Nagpur, specializing in luxury home furniture, office furniture, and customized interior solutions. We combine quality craftsmanship, elegant designs, and exceptional customer service to help clients create spaces that reflect their lifestyle and vision.
+    </p>
+    <p class="section-desc">
+      Our mission is to provide premium-quality furniture and interior solutions that enhance comfort, functionality, and aesthetics — making luxury accessible across Maharashtra.
+    </p>
+    <div class="about-badges">
+      <div class="about-badge">Premium Materials</div>
+      <div class="about-badge">Wholesale Pricing</div>
+      <div class="about-badge">Custom Designs</div>
+      <div class="about-badge">Expert Consultation</div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="fade-in">
+  <div class="products-header">
+    <div>
+      <div class="section-label">Our Collection</div>
+      <h2 class="section-title">Furniture <em>Crafted</em><br>for Every Space</h2>
+    </div>
+    <a href="#contact" class="btn-primary" style="white-space:nowrap;">Request a Quote</a>
+  </div>
+
+  <div class="category-tabs">
+    <button class="tab-btn active" onclick="filterProducts('home')">Home Furniture</button>
+    <button class="tab-btn" onclick="filterProducts('office')">Office Furniture</button>
+    <button class="tab-btn" onclick="filterProducts('all')">View All</button>
+  </div>
+
+  <div class="products-grid" id="productsGrid">
+    <!-- Home Furniture -->
+    <div class="product-card" data-cat="home">
+      <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80" alt="Premium Sofa" class="product-img">
+      <div class="product-info">
+        <div class="product-cat">Home Furniture</div>
+        <div class="product-name">Luxury Sofas</div>
+        <div class="product-desc">Plush, hand-crafted sofas in premium fabric and leather. Designed for enduring comfort and refined aesthetics.</div>
+      </div>
+    </div>
+    <div class="product-card" data-cat="home">
+      <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&q=80" alt="Dining Set" class="product-img">
+      <div class="product-info">
+        <div class="product-cat">Home Furniture</div>
+        <div class="product-name">Dining Sets</div>
+        <div class="product-desc">Elegant dining tables and chair sets that transform your dining space into a fine-dining experience at home.</div>
+      </div>
+    </div>
+    <div class="product-card" data-cat="home">
+      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&q=80" alt="King Bed" class="product-img">
+      <div class="product-info">
+        <div class="product-cat">Home Furniture</div>
+        <div class="product-name">Premium Beds</div>
+        <div class="product-desc">Luxurious king and queen beds with upholstered headboards and solid-wood frames for restful, elegant bedrooms.</div>
+      </div>
+    </div>
+    <div class="product-card" data-cat="home">
+      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Wardrobe" class="product-img">
+      <div class="product-info">
+        <div class="product-cat">Home Furniture</div>
+        <div class="product-name">Wardrobes</div>
+        <div class="product-desc">Modular and bespoke wardrobes with smart storage solutions, soft-close mechanisms and premium finishes.</div>
+      </div>
+    </div>
+    <div class="product-card" data-cat="home">
+      <img src="https://images.unsplash.com/photo-1601628828688-632f38a5a7d0?w=600&q=80" alt="TV Unit" class="product-img">
+      <div class="product-info">
+        <div class="product-cat">Home Furniture</div>
+        <div class="product-name">TV Units</div>
+        <div class="product-desc">Sleek media consoles and entertainment units that anchor your living room with style and functionality.</div>
+      </div>
+    </div>
+    <div class="product-card" data-cat="home">
+      <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=600&q=80" alt="Coffee Table" class="product-img">
+      <div class="product-info">
+        <div class="product-cat">Home Furniture</div>
+        <div class="product-name">Coffee Tables</div>
+        <div class="product-desc">Sculptural coffee tables in marble, tempered glass, and solid wood — the centrepiece of any modern living room.</div>
+      </div>
+    </div>
+    <!-- Office Furniture -->
+    <div class="product-card" data-cat="office" style="display:none;">
+      <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80" alt="Executive Table" class="product-img">
+      <div class="product-info">
+        <div class="product-cat">Office Furniture</div>
+        <div class="product-name">Executive Tables</div>
+        <div class="product-desc">Commanding executive desks in premium wood and glass finishes that define authority and sophistication.</div>
+      </div>
+    </div>
+    <div class="product-card" data-cat="office" style="display:none;">
+      <img src="https://images.unsplash.com/photo-1541558869434-2840d308329a?w=600&q=80" alt="Office Chair" class="product-img">
+      <div class="product-info">
+        <div class="product-cat">Office Furniture</div>
+        <div class="product-name">Office Chairs</div>
+        <div class="product-desc">Ergonomic executive and task chairs designed for long hours — combining posture support with premium aesthetics.</div>
+      </div>
+    </div>
+    <div class="product-card" data-cat="office" style="display:none;">
+      <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Conference Table" class="product-img">
+      <div class="product-info">
+        <div class="product-cat">Office Furniture</div>
+        <div class="product-name">Conference Tables</div>
+        <div class="product-desc">Impressive boardroom tables for collaborative and high-stakes meetings. Available in multiple sizes and finishes.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="fade-in">
+  <div class="section-label">Interior Solutions</div>
+  <h2 class="section-title" style="color:var(--ivory);">Complete <em style="color:var(--gold);">Interior Design</em><br><span style="color:var(--ivory);">Services for Every Space</span></h2>
+  <div class="section-divider"></div>
+  <p class="section-desc">From concept to completion — we design, source, and install premium interiors for homes, offices, and commercial spaces across Maharashtra.</p>
+
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon">🏠</div>
+      <div class="service-name">Home Interiors</div>
+      <div class="service-desc">Luxury residential interior design tailored to your lifestyle.</div>
+      <ul class="service-list">
+        <li>Living Room Design</li>
+        <li>Bedroom Design</li>
+        <li>Modular Kitchen</li>
+        <li>Space Planning</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🏢</div>
+      <div class="service-name">Office Interiors</div>
+      <div class="service-desc">Corporate environments that inspire productivity and impress clients.</div>
+      <ul class="service-list">
+        <li>Workstation Planning</li>
+        <li>Reception Design</li>
+        <li>Cabin Interiors</li>
+        <li>Conference Rooms</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">✏️</div>
+      <div class="service-name">Custom Furniture</div>
+      <div class="service-desc">Bespoke furniture crafted precisely to your specifications and space.</div>
+      <ul class="service-list">
+        <li>Made-to-Measure Designs</li>
+        <li>Material Selection</li>
+        <li>3D Visualization</li>
+        <li>Precision Installation</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🏨</div>
+      <div class="service-name">Commercial Projects</div>
+      <div class="service-desc">Large-scale solutions for hotels, showrooms, and hospitality spaces.</div>
+      <ul class="service-list">
+        <li>Hotel Furniture</li>
+        <li>Restaurant Interiors</li>
+        <li>Showroom Fit-outs</li>
+        <li>Retail Spaces</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">📐</div>
+      <div class="service-name">Space Planning</div>
+      <div class="service-desc">Expert layout consultations that maximize space, flow, and function.</div>
+      <ul class="service-list">
+        <li>Floor Plan Design</li>
+        <li>Traffic Flow Analysis</li>
+        <li>Furniture Zoning</li>
+        <li>Lighting Design</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🎨</div>
+      <div class="service-name">Design Consultation</div>
+      <div class="service-desc">Personalized styling sessions with our in-house design experts.</div>
+      <ul class="service-list">
+        <li>Colour Consultation</li>
+        <li>Material Sourcing</li>
+        <li>Mood Board Creation</li>
+        <li>Budget Planning</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why" class="fade-in">
+  <div class="why-image">
+    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80" alt="Premium furniture showroom Italian Furniture Nagpur">
+    <div class="why-image-label">Est. in Nagpur</div>
+  </div>
+  <div>
+    <div class="section-label">Why Choose Us</div>
+    <h2 class="section-title">The Italian Furniture <em>Difference</em></h2>
+    <div class="section-divider"></div>
+    <p class="section-desc" style="margin-bottom:8px;">We don't just sell furniture. We help you design spaces that reflect who you are — with quality, care, and craftsmanship that lasts.</p>
+    <div class="why-features">
+      <div class="why-feature">
+        <div class="why-feature-icon">✦</div>
+        <div class="why-feature-content">
+          <div class="why-feature-title">Premium Quality Materials</div>
+          <div class="why-feature-desc">Solid hardwoods, premium MDF, and imported upholstery fabrics — every piece is built to endure.</div>
+        </div>
+      </div>
+      <div class="why-feature">
+        <div class="why-feature-icon">◈</div>
+        <div class="why-feature-content">
+          <div class="why-feature-title">Competitive Wholesale Pricing</div>
+          <div class="why-feature-desc">Direct from source — you get luxury furniture at honest wholesale prices, whether buying one piece or furnishing an entire project.</div>
+        </div>
+      </div>
+      <div class="why-feature">
+        <div class="why-feature-icon">⬡</div>
+        <div class="why-feature-content">
+          <div class="why-feature-title">Customized Solutions</div>
+          <div class="why-feature-desc">Every space is different. We customize furniture dimensions, finishes, and fabrics to fit your exact requirements.</div>
+        </div>
+      </div>
+      <div class="why-feature">
+        <div class="why-feature-icon">◉</div>
+        <div class="why-feature-content">
+          <div class="why-feature-title">Expert Interior Consultation</div>
+          <div class="why-feature-desc">Free consultations with our in-house design experts — from a single room to your entire home or office.</div>
+        </div>
+      </div>
+      <div class="why-feature">
+        <div class="why-feature-icon">▲</div>
+        <div class="why-feature-content">
+          <div class="why-feature-title">Timely Delivery & Installation</div>
+          <div class="why-feature-desc">We deliver on our promises — and your furniture. Professional installation included with every large order.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="fade-in">
+  <div style="text-align:center; margin-bottom:8px;">
+    <div class="section-label" style="justify-content:center; display:flex;">Our Work</div>
+    <h2 class="section-title" style="justify-content:center;">Project <em>Gallery</em></h2>
+    <p class="section-desc" style="margin:0 auto;">A glimpse into the spaces we've transformed across Nagpur and Maharashtra.</p>
+  </div>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?w=900&q=80" alt="Luxury living room interior design Nagpur">
+      <div class="gallery-overlay"><span class="gallery-label">Living Room Design</span></div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=600&q=80" alt="Premium bedroom interior Nagpur">
+      <div class="gallery-overlay"><span class="gallery-label">Master Bedroom</span></div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&q=80" alt="Modern office interior design Nagpur">
+      <div class="gallery-overlay"><span class="gallery-label">Office Interior</span></div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=600&q=80" alt="Luxury dining room furniture Nagpur">
+      <div class="gallery-overlay"><span class="gallery-label">Dining Space</span></div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?w=600&q=80" alt="Modern workspace furniture Nagpur">
+      <div class="gallery-overlay"><span class="gallery-label">Premium Workspace</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="fade-in">
+  <div style="text-align:center;">
+    <div class="section-label" style="justify-content:center; display:flex;">Client Testimonials</div>
+    <h2 class="section-title">What Our <em>Clients Say</em></h2>
+  </div>
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <div class="testimonial-quote-icon">"</div>
+      <div class="testimonial-stars">★★★★★</div>
+      <div class="testimonial-text">Italian Furniture transformed our entire apartment in Nagpur. The quality of the sofa and dining set is exceptional — exactly what you'd expect from a high-end brand, at honest wholesale prices.</div>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">P</div>
+        <div>
+          <div class="testimonial-name">Priya Sharma</div>
+          <div class="testimonial-role">Homeowner · Civil Lines, Nagpur</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-quote-icon">"</div>
+      <div class="testimonial-stars">★★★★★</div>
+      <div class="testimonial-text">We hired Italian Furniture to design and furnish our entire office. The team was professional, the designs were stunning, and the project was delivered on time. Highly recommended for commercial projects.</div>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">R</div>
+        <div>
+          <div class="testimonial-name">Rajesh Agrawal</div>
+          <div class="testimonial-role">Business Owner · Dharampeth, Nagpur</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-quote-icon">"</div>
+      <div class="testimonial-stars">★★★★★</div>
+      <div class="testimonial-text">As an interior designer, I recommend Italian Furniture to all my clients. Their range is vast, quality is consistent, and their custom furniture service is unmatched in Nagpur. A true partner for design projects.</div>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">A</div>
+        <div>
+          <div class="testimonial-name">Anjali Deshmukh</div>
+          <div class="testimonial-role">Interior Designer · Nagpur</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-quote-icon">"</div>
+      <div class="testimonial-stars">★★★★★</div>
+      <div class="testimonial-text">The wardrobe and bed they custom-built for our bedroom is absolutely perfect. Every centimetre was measured and crafted with precision. The finishing is impeccable. Couldn't be happier.</div>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">S</div>
+        <div>
+          <div class="testimonial-name">Suresh & Neha Patel</div>
+          <div class="testimonial-role">Homeowners · Wardha Road, Nagpur</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-quote-icon">"</div>
+      <div class="testimonial-stars">★★★★★</div>
+      <div class="testimonial-text">We furnished our boutique hotel's 40 rooms through Italian Furniture. Exceptional pricing for wholesale, great quality, and their team managed the full installation. Professional from start to finish.</div>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">V</div>
+        <div>
+          <div class="testimonial-name">Vikram Mehta</div>
+          <div class="testimonial-role">Hotel Owner · Sitabuldi, Nagpur</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-quote-icon">"</div>
+      <div class="testimonial-stars">★★★★★</div>
+      <div class="testimonial-text">The free consultation alone was worth it. Their design expert helped us plan our entire living room and suggested the perfect furniture combination. The end result looks like a magazine cover.</div>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">M</div>
+        <div>
+          <div class="testimonial-name">Meena Joshi</div>
+          <div class="testimonial-role">Apartment Owner · Ramdaspeth, Nagpur</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="fade-in">
+  <div style="text-align:center; margin-bottom:8px;">
+    <div class="section-label" style="display:flex; justify-content:center;">Common Questions</div>
+    <h2 class="section-title">Frequently Asked <em>Questions</em></h2>
+  </div>
+  <div class="faq-wrap">
+    <div class="faq-item open">
+      <button class="faq-question" onclick="toggleFaq(this)">
+        Do you offer customized furniture?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">Yes, we provide fully customized furniture solutions based on your specific requirements. Share your dimensions, preferred materials, finishes, and design vision — and we'll craft it to perfection.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">
+        Do you provide interior design services?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">Absolutely. We offer complete residential and commercial interior solutions — from concept and space planning to furniture sourcing and full installation. Book a free consultation to get started.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">
+        Can I book a consultation online?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">Yes! You can schedule a free design consultation directly through the contact form on this website, or by reaching us on WhatsApp at +91 8010804524. We'll confirm your appointment within 24 hours.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">
+        Do you serve commercial projects like offices and hotels?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">Yes, we specialize in large-scale commercial projects including office fit-outs, hotel furnishing, restaurants, and retail spaces. We offer wholesale pricing and end-to-end project management for B2B clients.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">
+        What areas do you serve in Maharashtra?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">We are based in Nagpur and serve clients across Maharashtra including Pune, Mumbai, Amravati, and Wardha. For large projects, we also deliver and install pan-India. Contact us to confirm serviceability for your location.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">
+        What is your delivery and installation policy?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">We offer professional delivery and installation services for all furniture orders. Timelines are shared at the time of order based on customization requirements and delivery location. Large projects include dedicated installation teams.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<div class="cta-strip fade-in">
+  <div class="cta-strip-text">Ready to <em>Design Your Dream Space?</em><br>Let's Create Something Beautiful Together.</div>
+  <a href="#contact" class="btn-dark">Book Free Consultation</a>
+</div>
+
+<!-- CONTACT -->
+<section id="contact" class="fade-in">
+  <div class="section-label">Get in Touch</div>
+  <h2 class="section-title">Let's Start Your <em>Project</em></h2>
+  <div class="section-divider"></div>
+
+  <div class="contact-grid">
+    <div>
+      <div class="contact-info-item">
+        <div class="contact-info-icon">📍</div>
+        <div>
+          <div class="contact-info-label">Location</div>
+          <span class="contact-info-val">Nagpur, Maharashtra, India</span>
+        </div>
+      </div>
+      <div class="contact-info-item">
+        <div class="contact-info-icon">📞</div>
+        <div>
+          <div class="contact-info-label">Phone</div>
+          <a href="tel:+918010804524" class="contact-info-val">+91 8010804524</a>
+        </div>
+      </div>
+      <div class="contact-info-item">
+        <div class="contact-info-icon">✉️</div>
+        <div>
+          <div class="contact-info-label">Email</div>
+          <a href="mailto:italianfurniture05@gmail.com" class="contact-info-val">italianfurniture05@gmail.com</a>
+        </div>
+      </div>
+      <div class="contact-ctas">
+        <a href="https://wa.me/918010804524?text=Hello%2C%20I%20am%20interested%20in%20your%20furniture%20and%20interior%20solutions." class="cta-whatsapp" target="_blank" rel="noopener">
+          <span>💬</span> Chat on WhatsApp
+        </a>
+        <a href="tel:+918010804524" class="cta-call">
+          <span>📞</span> Call Now
+        </a>
+      </div>
+      <div style="margin-top:36px;">
+        <div style="font-size:12px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--warm-gray); margin-bottom:14px;">Follow Us</div>
+        <div style="display:flex; gap:12px;">
+          <a href="#" style="background:var(--charcoal); color:var(--ivory); padding:10px 20px; font-size:12px; font-weight:500; letter-spacing:1px; text-decoration:none; border-radius:2px; display:flex; align-items:center; gap:8px;">📷 Instagram</a>
+          <a href="#" style="background:var(--charcoal); color:var(--ivory); padding:10px 20px; font-size:12px; font-weight:500; letter-spacing:1px; text-decoration:none; border-radius:2px; display:flex; align-items:center; gap:8px;">👍 Facebook</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <div class="form-title">Book a Free Consultation</div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Your Name</label>
+          <input type="text" class="form-input" placeholder="Full Name">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Phone Number</label>
+          <input type="tel" class="form-input" placeholder="+91 XXXXX XXXXX">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email Address</label>
+        <input type="email" class="form-input" placeholder="your@email.com">
+      </div>
+      <div class="form-group">
+        <label class="form-label">I'm Interested In</label>
+        <select class="form-select">
+          <option value="">Select a Service</option>
+          <option>Home Furniture</option>
+          <option>Office Furniture</option>
+          <option>Interior Design – Residential</option>
+          <option>Interior Design – Commercial</option>
+          <option>Custom Furniture</option>
+          <option>Hotel / Hospitality Project</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Your Message</label>
+        <textarea class="form-textarea" placeholder="Tell us about your project, space size, budget, or any specific requirements..."></textarea>
+      </div>
+      <button class="form-submit" onclick="handleFormSubmit(event)">Send Message & Book Consultation</button>
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<div class="map-section">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238419.62264660873!2d78.8120986!3d21.1458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0a5a31faf13%3A0x19b37cf1f0297c28!2sNagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000"
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+    title="Italian Furniture Location - Nagpur, Maharashtra">
+  </iframe>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand-name">Italian Furniture</div>
+      <div class="footer-brand-tag">Luxury Furniture · Nagpur</div>
+      <div class="footer-brand-desc">
+        Premium furniture and interior solutions for modern homes, offices, and commercial spaces. Serving Nagpur and Maharashtra with quality, craftsmanship, and style.
+      </div>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">📷</a>
+        <a href="#" aria-label="Facebook">👍</a>
+        <a href="https://wa.me/918010804524" aria-label="WhatsApp">💬</a>
+        <a href="mailto:italianfurniture05@gmail.com" aria-label="Email">✉️</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Quick Links</div>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Products</div>
+      <ul class="footer-links">
+        <li><a href="#products">Sofas & Seating</a></li>
+        <li><a href="#products">Dining Sets</a></li>
+        <li><a href="#products">Beds & Wardrobes</a></li>
+        <li><a href="#products">TV Units</a></li>
+        <li><a href="#products">Executive Tables</a></li>
+        <li><a href="#products">Office Chairs</a></li>
+        <li><a href="#products">Conference Tables</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Contact</div>
+      <ul class="footer-links">
+        <li><a href="tel:+918010804524">+91 8010804524</a></li>
+        <li><a href="mailto:italianfurniture05@gmail.com">italianfurniture05@gmail.com</a></li>
+        <li><a href="#">Nagpur, Maharashtra, India</a></li>
+        <li style="margin-top:16px;">
+          <a href="https://wa.me/918010804524" style="color:var(--gold) !important; font-weight:500;">💬 WhatsApp Us</a>
+        </li>
+      </ul>
+      <div style="margin-top:24px;">
+        <div style="font-size:11px; color:rgba(248,244,238,0.3); margin-bottom:8px; letter-spacing:1px; text-transform:uppercase;">Business Hours</div>
+        <div style="font-size:13px; color:rgba(248,244,238,0.45);">Mon – Sat: 10:00 AM – 7:00 PM</div>
+        <div style="font-size:13px; color:rgba(248,244,238,0.45);">Sunday: By Appointment</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">© 2025 Italian Furniture, Nagpur. All rights reserved.</div>
+    <div class="footer-copy">Wholesale Furniture Dealer · Interior Solutions · Maharashtra</div>
+  </div>
+</footer>
+
+<script>
+  // NAV SCROLL
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 40);
+  });
+
+  // FADE IN ON SCROLL
+  const fadeEls = document.querySelectorAll('.fade-in');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+  }, { threshold: 0.08 });
+  fadeEls.forEach(el => observer.observe(el));
+
+  // PRODUCT TABS
+  function filterProducts(cat) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    document.querySelectorAll('.product-card').forEach(card => {
+      if (cat === 'all' || card.dataset.cat === cat) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  // FAQ TOGGLE
+  function toggleFaq(btn) {
+    const item = btn.closest('.faq-item');
+    const wasOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!wasOpen) item.classList.add('open');
+  }
+
+  // FORM SUBMIT
+  function handleFormSubmit(e) {
+    e.preventDefault();
+    const btn = e.target;
+    btn.textContent = '✓ Message Sent! We\'ll be in touch shortly.';
+    btn.style.background = '#5C3D1E';
+    btn.disabled = true;
+  }
+
+  // HAMBURGER
+  document.getElementById('hamburgerBtn').addEventListener('click', function() {
+    const links = document.querySelector('.nav-links');
+    const isOpen = links.style.display === 'flex';
+    links.style.display = isOpen ? '' : 'flex';
+    links.style.flexDirection = 'column';
+    links.style.position = 'fixed';
+    links.style.top = '72px';
+    links.style.left = '0'; links.style.right = '0';
+    links.style.background = 'var(--ivory)';
+    links.style.padding = '24px 32px 32px';
+    links.style.gap = '20px';
+    links.style.borderBottom = '1px solid var(--cream)';
+    links.style.boxShadow = '0 12px 40px rgba(0,0,0,0.08)';
+    if (isOpen) links.style.display = 'none';
+  });
+</script>
+</body>
+</html>
